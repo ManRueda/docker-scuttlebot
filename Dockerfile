@@ -10,4 +10,4 @@ RUN chmod +x /run-server.sh
 
 EXPOSE 8008
 
-CMD [ "/run-server.sh" ]
+CMD /usr/local/bin/sbot server
